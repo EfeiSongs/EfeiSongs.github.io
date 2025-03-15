@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://EfeiSongs.github.io</id>
+    <title>Song&apos;s blog</title>
+    <updated>2025-03-15T11:56:04.193Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://EfeiSongs.github.io"/>
+    <link rel="self" href="https://EfeiSongs.github.io/atom.xml"/>
+    <subtitle>生命在于斗争。Life is about struggle. 
+头图是我老婆御坂美琴~</subtitle>
+    <logo>https://EfeiSongs.github.io/images/avatar.png</logo>
+    <icon>https://EfeiSongs.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, Song&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[25/3/15 抽滤，等待下午消逝。]]></title>
+        <id>https://EfeiSongs.github.io/post/waterlab1/</id>
+        <link href="https://EfeiSongs.github.io/post/waterlab1/">
+        </link>
+        <updated>2025-03-15T06:25:00.000Z</updated>
+        <content type="html"><![CDATA[<p>换滤膜，开关真空泵，转移滤液。<br>
+<img src="https://EfeiSongs.github.io/post-images/1742020715555.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742020722370.jpg" alt="" loading="lazy"><br>
+晚餐：沙县小吃，杂酱面+煎蛋，小笼包。共21元。</p>
+<p>%作者：slandarer<br>
+%链接：https://www.zhihu.com/question/27780598/answer/758261793<br>
+bkgPic=imread('5e0f4c5b6edce3b8d8d26710d026b9a.jpg');%图片地址<br>
+% lineDensity故障线条密度 | lineLenRange故障线条长度范围 | greenMoveLen绿移距离<br>
+[m,n,k]=size(bkgPic);lineDensity=0.6;lineLenRange=[50,80];greenMoveLen=10;<br>
+if k~=1,bkgPic=rgb2gray(bkgPic);end<br>
+colorList=[21,27,143;68,22,113;94,72,151;175,152,192;221,188,204;217,156,174;203,82,104;232,31,37;151,5,11]';<br>
+blueRedPic=cat(3,repmat(interp1(linspace(1,n,size(colorList,2)),colorList(1,:),1:n,'linear'),[m,1]),repmat(interp1(linspace(1,n,size(colorList,2)),colorList(2,:),1:n,'linear'),[m,1]),repmat(interp1(linspace(1,n,size(colorList,2)),colorList(3,:),1:n,'linear'),[m,1]));<br>
+blueRedPic=uint8(double(blueRedPic).<em>double(bkgPic)./200);<br>
+gm_brPic=cat(3,blueRedPic(:,1+greenMoveLen:end,1),blueRedPic(:,1:end-greenMoveLen,2),blueRedPic(:,1+greenMoveLen:end,3));<br>
+[~,movePos]=sort(rand(1,m));movePos=sort(movePos(1:floor(m</em>lineDensity)));movePic=gm_brPic(movePos,:,1);<br>
+for i=1:size(movePic,1),gm_brPic(movePos(i),:,1)=imfilter(movePic(i,:),fspecial('motion',randi(lineLenRange,[1,1]),0),'replicate');end<br>
+imshow(gm_brPic);</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[麻了]]></title>
+        <id>https://EfeiSongs.github.io/post/ma-liao/</id>
+        <link href="https://EfeiSongs.github.io/post/ma-liao/">
+        </link>
+        <updated>2025-03-14T18:54:50.000Z</updated>
+        <content type="html"><![CDATA[<p>托福写作训练，电子烟和登不上去的网站。一切都是如此的令人麻木，”有趣“是包裹在“无趣”这块黯淡无光的琥珀里的一根头发丝。<br>
+薯片，烟瘾和性欲，安静的夜，富有节奏感的夜，紫色的夜，渴求的夜，深深的夜。<br>
+“近未来”的夜与“过去”的夜是同一个夜。<br>
+separation考砸，和黄老师的会面，“分清’情感‘和’事实“，”先搞定情绪的问题”。<br>
+不要被过去失败一直困扰。--妈妈<br>
+<img src="https://EfeiSongs.github.io/post-images/1741978565132.png" alt="" loading="lazy"><br>
+https://fake-white-house-news.pages.dev/<br>
+<img src="https://EfeiSongs.github.io/post-images/1741978575808.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741978570808.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741978579083.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741978698906.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactor..]]></title>
+        <id>https://EfeiSongs.github.io/post/reactor/</id>
+        <link href="https://EfeiSongs.github.io/post/reactor/">
+        </link>
+        <updated>2025-03-14T05:12:14.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://EfeiSongs.github.io/post-images/1741929142155.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[金拱门Golden Arches--be loved]]></title>
+        <id>https://EfeiSongs.github.io/post/jin-gong-men-golden-arches-be-loved/</id>
+        <link href="https://EfeiSongs.github.io/post/jin-gong-men-golden-arches-be-loved/">
+        </link>
+        <updated>2025-03-13T16:00:52.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://EfeiSongs.github.io/post-images/1741881703305.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881707931.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881711868.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881715321.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881719380.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881723660.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881727754.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881731670.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881735208.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881739886.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881743949.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881749611.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881753512.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881757188.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881760962.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881764398.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881767825.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881773095.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881780886.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881787048.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881792416.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881795803.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741881800629.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741882916370.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741883049400.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029965254.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029969391.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029973295.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029976339.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029981683.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029985402.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029989321.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1742029992834.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ general pictures2]]></title>
+        <id>https://EfeiSongs.github.io/post/general-pictures2/</id>
+        <link href="https://EfeiSongs.github.io/post/general-pictures2/">
+        </link>
+        <updated>2025-03-13T08:37:59.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://EfeiSongs.github.io/post-images/1741855288772.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855297656.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855307002.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855535678.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855555163.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855578469.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855585298.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855602809.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855609769.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855622655.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855635646.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855656156.png" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855665298.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855680207.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855924516.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855928894.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855931792.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855937062.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855947583.png" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855958060.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855971995.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855984143.png" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741855989335.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741856001190.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741856012414.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741856045989.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741856059360.jpg" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741856078216.jpeg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[游泳与下午的零食]]></title>
+        <id>https://EfeiSongs.github.io/post/you-yong-yu-xia-wu-de-ling-shi/</id>
+        <link href="https://EfeiSongs.github.io/post/you-yong-yu-xia-wu-de-ling-shi/">
+        </link>
+        <updated>2025-03-13T08:29:48.000Z</updated>
+        <content type="html"><![CDATA[<p>悠闲的下午...音乐，啤酒，膨化食品，galgame，空调...修改blog。<br>
+似曾相识，在过去经历过几个这样的时刻，在未来也会经历几个这样的时刻，但每个都不一样，像年轮。<br>
+<img src="https://EfeiSongs.github.io/post-images/1741854677896.jpg" alt="" loading="lazy"></p>
+<figure data-type="image" tabindex="1"><img src="https://EfeiSongs.github.io/post-images/1741854834374.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bioprocess有点难]]></title>
+        <id>https://EfeiSongs.github.io/post/bioprocess1/</id>
+        <link href="https://EfeiSongs.github.io/post/bioprocess1/">
+        </link>
+        <updated>2025-03-13T04:42:18.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://EfeiSongs.github.io/post-images/1741841075887.jpg" alt="" loading="lazy"><br>
+8是什么意思，想了半天= =<br>
+<img src="https://EfeiSongs.github.io/post-images/1741841133537.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[琴琴的照片，不定期发点><]]></title>
+        <id>https://EfeiSongs.github.io/post/qin-qin-de-zhao-pian-bu-ding-qi-fa-dian-greaterless/</id>
+        <link href="https://EfeiSongs.github.io/post/qin-qin-de-zhao-pian-bu-ding-qi-fa-dian-greaterless/">
+        </link>
+        <updated>2025-03-12T15:34:50.000Z</updated>
+        <content type="html"><![CDATA[<p>在这里放一些琴琴的照片等..</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[general pictures]]></title>
+        <id>https://EfeiSongs.github.io/post/general-pictures/</id>
+        <link href="https://EfeiSongs.github.io/post/general-pictures/">
+        </link>
+        <updated>2025-03-12T15:19:46.000Z</updated>
+        <content type="html"><![CDATA[<p>Some random and messy pictures, documenting parts of my life.<br>
+<img src="https://EfeiSongs.github.io/post-images/1741793309785.png" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741854870961.gif" alt="" loading="lazy"><br>
+<img src="https://EfeiSongs.github.io/post-images/1741854989889.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[T7 system little exhibition]]></title>
+        <id>https://EfeiSongs.github.io/post/t7-system-little-exhibition/</id>
+        <link href="https://EfeiSongs.github.io/post/t7-system-little-exhibition/">
+        </link>
+        <updated>2025-03-12T15:13:57.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://EfeiSongs.github.io/post-images/1741793210500.jpg" alt="" loading="lazy">Biological engineering and synthetic biology require that the genetic material of organisms be modified at the molecular level, and then the metabolic pathways and metabolites of organisms (mainly microorganisms at this stage) be modified, to obtain the desired substances and improve their production efficiency. Single-celled eukaryotes and prokaryotes (i.e. bacteria) are the most used vectors.</p>
+]]></content>
+    </entry>
+</feed>
